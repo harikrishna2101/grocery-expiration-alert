@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Grocery Expiration Alert</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Grocery Expiration Alert</div>
+        <div class="nav-links">
+            <a href="index.html">Login</a>
+            <a href="products.html" class="active">Products</a>
+            <a href="cart.html">Cart <span id="cart-count"></span></a>
+            <a href="#" id="logout-btn">Logout</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="products-grid" id="products-container">
+            <!-- Products will be dynamically loaded here -->
+        </div>
+    </div>
+
+    <script src="auth.js"></script>
+    <script src="products.js"></script>
+    <script src="app.js"></script>
+</body>
+</html> 
